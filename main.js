@@ -23,3 +23,21 @@ console.log("(1542)");
 console.log("Mary" + "Stuart" + "(1542)");
 //Pregunta 7: Coloque espacios en los lugares apropiados, de modo que cuando se muestren, obtenga el mismo efecto que en la Pregunta 4 .
 console.log("Mary" + "Stuart" + "(1542)");
+
+// VARIABLES VAR - LET
+var height;
+console.log(height); // undefined
+console.log(wight); // Uncaught ReferenceError: width is not defined
+
+// Let- let impide declarar otra variable con el mismo nombre (se genera un error).
+let width;
+console.log(width); // undefined
+
+let height;
+let height; // Uncaught SyntaxError: Identifier 'height' has already been declared
+console.log(height);
+
+// Var  Usar var permite volver a declarar una variable, lo que podría provocar errores en la ejecución del programa.
+var height;
+var height;
+console.log(height); // undefined
