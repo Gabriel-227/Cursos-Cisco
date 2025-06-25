@@ -97,3 +97,12 @@ let  message2  =  'Cyclone  "Cilida"  to  pass  close  to  Mauritius.';
    
 console.log(message1);  //  ->  The  vessel  'Mars'  called  at  the  port.
 console.log(message2);  //  ->  Cyclone  "Cilida"  to  pass  close  to  Mauritius.
+//Si desea colocar comillas simples o dobles dentro de la cadena, también puede usar el carácter de escape: la barra invertida
+let  messag3  =  'The  vessel  \'Mars\'  called  at  the  port.';
+let  message4  =  "Cyclone  \"Cilida\"  to  pass  close  to  Mauritius.";
+   
+console.log(message3);  //  ->  The  vessel  'Mars'  called  at  the  port.
+console.log(message4);  //  ->  Cyclone  "Cilida"  to  pass  close  to  Mauritius.
+   
+let  path  =  "C:\\Windows";
+console.log(path);  //  ->  C:\Windows
