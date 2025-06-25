@@ -79,3 +79,21 @@ console.log(typeof  big);  //  ->  bigint
 console.log(big2);  //  ->  1n
 console.log(7n  /  4n);  //  ->  1n
 
+// Cadenas String
+// Las cadenas son secuencias de caracteres que se utilizan para representar texto. En JavaScript
+// se pueden crear utilizando comillas simples ('), comillas dobles (") o comillas invertidas (`) para las plantillas literales.
+let  country  =  "Malawi";
+let  continent  =  'Africa';
+   
+console.log(country);  //  ->  Malawi
+console.log(typeof  country);  //  ->  string
+console.log(continent);  //  ->  Africa
+console.log(typeof  continent);  //  ->  string
+let  greeting  =  `Hello,  ${country}  is  in  ${continent}`;
+console.log(greeting);  //  ->  Hello,  Malawi  is  in
+
+let  message1  =  "The  vessel  'Mars'  called  at  the  port.";
+let  message2  =  'Cyclone  "Cilida"  to  pass  close  to  Mauritius.';
+   
+console.log(message1);  //  ->  The  vessel  'Mars'  called  at  the  port.
+console.log(message2);  //  ->  Cyclone  "Cilida"  to  pass  close  to  Mauritius.
